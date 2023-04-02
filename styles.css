@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(38, 158, 158);
+}
+h1 {
+    color: green;
+}
+div { 
+    background-color:cornflowerblue;
+    border-style: solid red;
+    border-color: solid green;
+    border-radius: 50px;
+}
+
+.shadow-text {
+    text-shadow: gray 100px 100px;
+}
+#large-paragraph {
+    font-size: 300px;
+}
+
+
+.hov:hover {
+    background-color: yellow;
+
+}
+
+.every-even  li:nth-child(even) {
+    background-color: yellow;
+}
+.every-third li:nth-child(3n) {
+    background-color: yellow;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+th, td {
+    padding: 80px;
+    text-align: 100px right;
+    border-bottom: 100px hotpink;
+
+}
+tr:nth-child(even) {
+    background-color:hotpink;
+
+}
+
+tr:hover {
+    background-color: green;
+}
+#box-model {
+    padding: 100px;
+    border-style: solid;
+    border-inline-width: 40px;
+    margin: 400px;
+    background-color: yellow;
+}
